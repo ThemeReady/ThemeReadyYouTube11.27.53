@@ -67,9 +67,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33ff7c71    # -3.3689148E7f
+    const v6, -0x1    # -3.3689148E7f
 
     const/4 v7, 0x1
 
@@ -102,9 +102,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0xd86c1a
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x1
 
@@ -137,9 +137,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -172,9 +172,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -207,9 +207,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x1744d5
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -242,9 +242,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x1744d5
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -277,9 +277,9 @@
 
     const/4 v4, 0x0
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -312,9 +312,9 @@
 
     const/4 v4, 0x1
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 
@@ -347,9 +347,9 @@
 
     const/4 v4, 0x0
 
-    const v5, -0x19dee9
+    const v5, -0x1
 
-    const v6, -0x33000001    # -1.3421772E8f
+    const v6, -0x1    # -1.3421772E8f
 
     const/4 v7, 0x0
 

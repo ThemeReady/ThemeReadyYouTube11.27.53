@@ -158,7 +158,7 @@
     iput-object v8, v7, Lelo;->a:Ljava/lang/CharSequence;
 
     .line 3581
-    sget v8, Lwiy;->Q:I
+    sget v8, Lwiy;->R:I
 
     .line 3582
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getColor(I)I

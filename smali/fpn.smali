@@ -497,6 +497,8 @@
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v1
+	
+	const v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
     :try_end_0
