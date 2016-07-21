@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/yt_unlimited_pre_purchase_pref_header" />
+    <header android:title="@string/pref_general_category" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$GeneralPrefsFragment" />
+    <header android:id="@id/yt_unlimited_post_purchase_pref_header" />
+    <header android:id="@id/offline_pref_header" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$OfflinePrefsFragment" />
+    <header android:id="@id/pair_with_tv_header" android:title="@string/mdx_pair_with_tv_prefs_title" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$SendToTvPrefsFragment" />
+    <header android:id="@id/mdx_smart_pairing_header" android:title="@string/mdx_pair_with_tv_prefs_title" />
+    <header android:title="@string/pref_privacy_category" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$PrivacyPrefsFragment" />
+    <header android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$NotificationPrefsFragment" />
+    <header android:title="@string/pref_subtitles_category" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$SubtitlesPrefsFragment" />
+    <header android:id="@id/yt_blocked_contacts_manager_header" />
+    <header android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$DogfoodPrefsFragment" />
+    <header android:title="@string/pref_developer_category" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$DeveloperPrefsFragment" />
+    <header android:title="@string/pref_about_category" android:fragment="com.google.android.apps.youtube.app.honeycomb.SettingsActivity$AboutPrefsFragment" />
+</preference-headers>

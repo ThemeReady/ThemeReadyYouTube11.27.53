@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" _xmlns:android="http://schemas.android.com/apk/res/android" xmlns:_xmlns="xmlns"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_description" android:drawableLeft="@drawable/mdx_pair_with_tv_description" style="@style/Mdx.PrefsDescription" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/available_tv_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_available_tvs_header" style="@style/Mdx.PrefsHeader" />
+        <LinearLayout android:orientation="vertical" android:id="@id/available_tv_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/no_tvs_found_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_no_tvs_found_title" style="@style/Mdx.PrefsTitle" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/no_tvs_found_summary" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_no_tvs_found_summary" style="@style/Mdx.PrefsSummary" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/no_tvs_found_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/mdx_pref_pair_with_tv_no_tvs_found_button" style="@style/Mdx.PrefsAction" />
+        <View style="@style/Mdx.PrefsSeparator" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/tv_code" android:background="?android:selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_tv_code_title" style="@style/Mdx.PrefsTitle" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_tv_code_summary" style="@style/Mdx.PrefsSummary" />
+        </LinearLayout>
+        <View style="@style/Mdx.PrefsSeparator" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center_vertical" android:id="@id/manage_tvs_title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:text="@string/mdx_pref_pair_with_tv_manage_tvs_title" style="@style/Mdx.PrefsTitle" />
+        <View style="@style/Mdx.PrefsSeparator" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center_vertical" android:id="@id/not_finding_tv_title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:text="@string/mdx_pref_pair_with_tv_not_finding_tv_title" style="@style/Mdx.PrefsTitle" />
+        <View style="@style/Mdx.PrefsSeparator" />
+    </LinearLayout>
+</ScrollView>

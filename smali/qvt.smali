@@ -1,0 +1,29 @@
+.class public final Lqvt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lrmn;
+
+
+# direct methods
+.method public constructor <init>(Lrmn;)V
+    .locals 1
+
+    .prologue
+    .line 14
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 15
+    invoke-static {p1}, Llhi;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lrmn;
+
+    iput-object v0, p0, Lqvt;->a:Lrmn;
+
+    .line 16
+    return-void
+.end method
